@@ -393,36 +393,52 @@ section {
   transition: all 0.4s ease-in-out;
   background-color: #1fe0c7;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .java {
-  width: 70%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .python {
+  width: 100%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .Java {
+  width: 100%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .JavaScript {
+  width: 100%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .C {
-  width: 70%;
+  width: 80%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .Matlab {
-  width: 70%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .ml {
+  width: 100%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .Python {
-  width: 70%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .alg {
+  width: 100%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .RISc {
-  width: 70%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .Flask {
+  width: 80%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .JS {
-  width: 70%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .node {
+  width: 60%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .linux {
-  width: 70%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .HTML {
-  width: 70%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .CSS {
-  width: 70%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .numpy {
+  width: 100%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .Git {
-  width: 70%;
+  width: 80%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .SQL {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .Jupyter {
+  width: 100%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .Spring {
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .FireBase {
+  width: 100%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .html {
+  width: 60%;
+}
+
 
 .stat-title {
   text-transform: uppercase;
@@ -452,8 +468,19 @@ section {
 .timeline .timeline-item {
   position: relative;
   padding-left: 3rem;
-  border-left: 1px solid var(--color-grey-5);
+  border-left: 1px solid transparent;
 }
+
+.timeline .timeline-item::after{
+  content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 70%; /* Adjust this value to control the height of the colored portion */
+    width: 1px; /* Match this to the border width */
+    background-color: var(--color-grey-5); /* Your border color */
+}
+
 .timeline .timeline-item:hover .tl-icon {
   position: absolute;
   left: -27px;
@@ -483,6 +510,125 @@ section {
   align-items: center;
   justify-content: center;
 }
+
+.rutgers-icon{
+  transform: scale(0.03);
+}
+
+.timeline .timeline-item .rutgers-icon {
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  left: -27px;
+  top: 0;
+  background-color: var(--color-secondary);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.makonis-icon{
+  transform: scale(0.35);
+  border-radius: 15%;
+}
+
+.makonis-image{
+  border-radius: 20%;
+}
+
+.timeline .timeline-item .makonis-icon {
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  left: -27px;
+  top: 0;
+  background-color: var(--color-secondary);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.barclays-icon{
+  transform: scale(0.0675);
+}
+
+.timeline .timeline-item .barclays-icon {
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  left: -27px;
+  top: 0;
+  background-color: var(--color-secondary);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wyzant-icon{
+  transform: scale(0.21);
+  border-radius: 15%;
+}
+
+.wyzant-image{
+  border-radius: 20%;
+}
+
+.timeline .timeline-item .wyzant-icon {
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  left: -27px;
+  top: 0;
+  background-color: var(--color-secondary);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.urban-league-icon{
+  transform: scale(0.275);
+}
+
+.timeline .timeline-item .urban-league-icon {
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  left: -27px;
+  top: 0;
+  /*background-color: var(--color-secondary);*/
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uj-icon{
+  transform: scale(0.25);
+}
+
+.uj-image{
+  border-radius: 10%;
+}
+
+.timeline .timeline-item .uj-icon {
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  left: -27px;
+  top: 0;
+  /*background-color: var(--color-secondary);*/
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .timeline .timeline-item .tl-icon i {
   font-size: 1.3rem;
 }
