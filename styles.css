@@ -91,7 +91,7 @@ section {
 }
 @keyframes appear {
   0% {
-    transform: translateY(-100%) scaleY(0);
+    transform: translateY(-100%) scaleY(0.2);
   }
   100% {
     transform: translateY(0) scaleY(1);
@@ -801,6 +801,27 @@ section {
   align-items: center;
   font-size: 1.3rem;
 }
+
+.linkedin-icon{
+  transform: scale(0.07705);
+  border-radius: 50%;
+}
+
+.leetcode-icon{
+  transform: scale(0.0567);
+  border-radius: 50%;
+}
+
+.github-logo{
+  transform: scale(0.08367);
+  border-radius: 50%;
+}
+
+.cs-logo{
+  transform: scale(0.035);
+  border-radius: 50%;
+}
+
 .contact-content-con .left-contact .contact-icon {
   display: flex;
   margin-top: 2rem;
@@ -1325,14 +1346,14 @@ section {
     margin: 1rem 0;
   }
   .contact-item p {
-    font-size: 15px;
+    font-size: 25px;
     color: var(--color-grey-2);
   }
   .contact-item span {
-    font-size: 15px;
+    font-size: 25px;
   }
   .contact-item .icon {
-    grid-template-columns: 25px 1fr;
+    grid-template-columns: 50px 1fr;
   }
   .main-title h2 {
     font-size: 2rem;
