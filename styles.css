@@ -463,6 +463,25 @@ section {
   transform: translateX(-50%);
 }
 
+.stat-title1 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 3.5rem 0;
+  position: relative;
+  margin-top:4rem;
+}
+.stat-title1::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 90%;
+  height: 1px;
+  background-color: var(--color-grey-5);
+  transform: translateX(-50%);
+}
+
 /*Timeline*/
 .timeline {
   display: grid;
@@ -679,7 +698,7 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
-  margin-top: 3rem;
+  margin-top: 0.1%;
 }
 .portfolios .portfolio-item {
   position: relative;
@@ -699,6 +718,14 @@ section {
   display: inline-block;
   font-size: 1rem;
   text-transform: uppercase;
+  font-weight: 500;
+}
+.portfolios .portfolio-item .project-subtitle {
+  padding: 0.2rem 0.6rem;
+  background-color: var(--color-grey-5);
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 1rem;
   font-weight: 500;
 }
 .portfolios .portfolio-item .hover-items {
