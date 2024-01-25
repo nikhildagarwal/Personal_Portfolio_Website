@@ -418,8 +418,19 @@ section {
   width: 100%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .Flask {
+  width: 100%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .Docker {
   width: 80%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .GCP {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .AWS {
+  width: 60%;
+}
+
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
   width: 60%;
 }
