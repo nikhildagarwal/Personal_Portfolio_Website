@@ -681,6 +681,30 @@ section {
   text-transform: uppercase;
   font-weight: 500;
 }
+
+.description_box{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top:1rem;
+  font-size:20px;
+  color: var(--color-grey-6);
+}
+
+.description_item{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.bullet{
+  justify-content: center;
+  width:5%;
+}
+
+.bullet_text{
+  width:95%;
+}
+
 .timeline .timeline-item .tl-location {
   padding: 0.2rem 0.6rem;
   background-color: var(--color-grey-5);
@@ -743,6 +767,9 @@ section {
   display: inline-block;
   font-size: 1rem;
   font-weight: 500;
+}
+h3{
+  margin-top: 1rem;
 }
 .portfolios .portfolio-item .hover-items {
   width: 100%;
