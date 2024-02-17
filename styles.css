@@ -690,6 +690,10 @@ section {
   color: var(--color-grey-6);
 }
 
+.description_box_default{
+  color: var(--color-grey-2)
+}
+
 .description_item{
   display: flex;
   justify-content: center;
@@ -698,12 +702,32 @@ section {
 
 .bullet{
   justify-content: center;
-  width:5%;
+  width:2.5%;
 }
 
 .bullet_text{
-  width:95%;
+  width: 97.5%;
 }
+
+.bullet_text span{
+  font-weight: bold;
+}
+
+.bullet_set{
+  justify-content: center;
+  width: 40px;
+}
+
+.bullet_header_set{
+  font-weight: bold;
+  width: 10px;
+}
+
+.bullet_text_auto{
+  width: auto;
+}
+
+
 
 .timeline .timeline-item .tl-location {
   padding: 0.2rem 0.6rem;
@@ -774,7 +798,7 @@ h3{
 .portfolios .portfolio-item .hover-items {
   width: 100%;
   height: 100%;
-  background-color: var(--color-secondary);
+  background-color: var(--color-grey-2);
   position: absolute;
   left: 0;
   top: 0;
