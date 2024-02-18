@@ -555,6 +555,10 @@ section {
   transform: scale(0.03);
 }
 
+.rutgers-icon:hover{
+  transform: scale(0.05);
+}
+
 .timeline .timeline-item .rutgers-icon {
   transition: all 0.4s ease-in-out;
   position: absolute;
@@ -574,8 +578,13 @@ section {
   border-radius: 15%;
 }
 
+.makonis-icon:hover{
+  transform: scale(0.58333);
+}
+
 .makonis-image{
   border-radius: 20%;
+  cursor: pointer;
 }
 
 .timeline .timeline-item .makonis-icon {
@@ -593,6 +602,10 @@ section {
 
 .barclays-icon{
   transform: scale(0.0675);
+}
+
+.barclays-icon:hover{
+  transform: scale(0.1125);
 }
 
 .timeline .timeline-item .barclays-icon {
@@ -614,8 +627,13 @@ section {
   border-radius: 15%;
 }
 
+.wyzant-icon:hover{
+  transform: scale(0.35);
+}
+
 .wyzant-image{
   border-radius: 20%;
+  cursor: pointer;
 }
 
 .timeline .timeline-item .wyzant-icon {
@@ -635,6 +653,10 @@ section {
   transform: scale(0.275);
 }
 
+.urban-league-icon:hover{
+  transform: scale(0.458333);
+}
+
 .timeline .timeline-item .urban-league-icon {
   transition: all 0.4s ease-in-out;
   position: absolute;
@@ -652,8 +674,13 @@ section {
   transform: scale(0.25);
 }
 
+.uj-icon:hover{
+  transform: scale(0.4166667);
+}
+
 .uj-image{
   border-radius: 10%;
+  cursor: pointer;
 }
 
 .timeline .timeline-item .uj-icon {
@@ -711,6 +738,10 @@ section {
 
 .bullet_text span{
   font-weight: bold;
+}
+
+.logo-format{
+  cursor: pointer;
 }
 
 .bullet_set{

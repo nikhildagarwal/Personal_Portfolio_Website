@@ -101,3 +101,24 @@ document.getElementById("contact-btn").addEventListener('click',()=>{
         active_page_ref_name = "container contact active";
     }
 })
+
+document.getElementById("rutgers-badge").addEventListener('click',()=>{
+    window.open("https://www.rutgers.edu/", "_blank")
+})
+
+document.getElementById("barclays-badge").addEventListener('click',()=>{
+    window.open("https://www.cib.barclays/", "_blank")
+})
+document.getElementById("makonis-badge").addEventListener('click',()=>{
+    window.open("https://makonissoft.com/", "_blank")
+})
+document.getElementById("wyzant-badge").addEventListener('click',()=>{
+    window.open("https://www.wyzant.com/", "_blank")
+})
+document.getElementById("uj-badge").addEventListener('click',()=>{
+    window.open("https://unclejulios.com/", "_blank")
+})
+
+document.getElementById("ul-badge").addEventListener('click',()=>{
+    window.open("https://www.ulmcnj.org/", "_blank")
+})
