@@ -553,6 +553,7 @@ section {
 
 .rutgers-icon{
   transform: scale(0.03);
+  z-index: 3000;
 }
 
 .rutgers-icon:hover{
@@ -580,6 +581,7 @@ section {
 
 .makonis-icon:hover{
   transform: scale(0.58333);
+  z-index: 3002;
 }
 
 .makonis-image{
@@ -602,6 +604,7 @@ section {
 
 .barclays-icon{
   transform: scale(0.0675);
+  z-index: 3001;
 }
 
 .barclays-icon:hover{
@@ -625,6 +628,7 @@ section {
 .wyzant-icon{
   transform: scale(0.21);
   border-radius: 15%;
+  z-index: 3003;
 }
 
 .wyzant-icon:hover{
@@ -651,6 +655,7 @@ section {
 
 .urban-league-icon{
   transform: scale(0.275);
+  z-index: 3005;
 }
 
 .urban-league-icon:hover{
@@ -671,6 +676,7 @@ section {
 }
 
 .uj-icon{
+  z-index: 3004;
   transform: scale(0.25);
 }
 
