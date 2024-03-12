@@ -1019,11 +1019,12 @@ h3{
 }
 .contact-content-con .right-contact .emailB {
   display: inline-block;
-  height: 33px;
-  width: 150px;
+  height: auto;
   text-align: center;
   color: #f8f8f8;
-  padding: 0 1rem;
+  padding: 10px;
+  padding-right:20px;
+  padding-left:20px;
   border: 0;
   outline: none;
   transition: all 0.4s ease-in-out;
